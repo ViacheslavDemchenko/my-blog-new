@@ -1,0 +1,12 @@
+extends ./../layouts/main
+
+block variables
+  - let pageTitle = 'Smart Frontend — Блог веб-разработчика';
+
+block content
+  .wrap-feedback
+  .wrapper
+    include ./../components/sections/header/header.pug
+    main
+      include ./../components/sections/blog/blog.pug
+    include ./../components/sections/footer/footer.pug

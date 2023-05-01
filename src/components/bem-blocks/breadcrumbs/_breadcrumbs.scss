@@ -1,0 +1,35 @@
+.breadcrumbs {
+  width: 100%;
+  max-width: 114rem;
+  margin: 2rem 0 3rem 0;
+
+  &__links {
+
+    a {
+      position: relative;
+      display: inline-block;
+      font-size: 1.4rem;
+      margin-right: 2.5rem;
+
+      @media (min-width: 1024px) {
+        font-size: 1.6rem;
+      }
+
+      @media (min-width: 1440px) {
+        font-size: 1.8rem;
+      }
+
+      &::after {
+        position: absolute;
+        content: ">";
+        right: -2rem;
+        top: 0.2rem;
+      }
+    }
+
+    span {
+      display: inline-block;
+      color: #a0a1b5;
+    }
+  }
+}

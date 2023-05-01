@@ -1,0 +1,12 @@
+extends ./../layouts/main
+
+block variables
+  - let pageTitle = 'Smart Frontend — Как клонировать объект или массив в JavaScript';
+
+block content
+  .wrap-feedback
+  .wrapper
+    include ./../components/sections/header/header.pug
+    main
+      include ./../components/sections/single/single.pug
+    include ./../components/sections/footer/footer.pug

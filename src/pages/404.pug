@@ -1,0 +1,12 @@
+extends ./../layouts/main
+
+block variables
+  - let pageTitle = 'Smart Frontend — 404 (такая страница не существует)';
+
+block content
+  .wrap-feedback
+  .wrapper
+    include ./../components/sections/header/header.pug
+    main
+      include ./../components/sections/404/404.pug
+    include ./../components/sections/footer/footer.pug

@@ -1,0 +1,27 @@
+.nav {
+
+  ul {
+    display: flex;
+
+    li {
+
+      &:not(:last-of-type) {
+        margin-right: 1rem;
+      }
+
+      a {
+        padding: 0.5rem;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #000;
+        will-change: all;
+        transition: all 0.3s ease-out;
+
+        @media (min-width: 768px) {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}
