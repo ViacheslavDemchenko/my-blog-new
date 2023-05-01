@@ -29,7 +29,7 @@ const gulp = require('gulp'),
 
 // Project info
 
-const buildFolder = './build';
+const buildFolder = './docs';
 
 /*
 * Название текущего проекта 
